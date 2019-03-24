@@ -5,7 +5,7 @@
 > so please refer to [it's documentation](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md)
 > for more usage information.
 
-# [_Put your project name here_]
+# {{ cookiecutter.project_name }}
 
 [_Add a brief description of your project here._]
 
@@ -91,10 +91,6 @@ module.exports = router;
 ```
 
 `index.html`:
-
-```html
-<div id="root">{{{html}}}</div>
-```
 
 If you call `ReactDOM.render()` on a node that already has this server-rendered markup (`<div id="root">` in the example above), React will preserve it and only attach event handlers, allowing you to have a very performant first-load experience.
 
