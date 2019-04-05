@@ -6,10 +6,11 @@ Originally written as a demo for the Software Product Line Engineering Advanced 
 
 ## Guide
 1. Install [cookiecutter](https://github.com/audreyr/cookiecutter).
-2. Cookiecut the service from the checked out folder.
+2. Cookiecut the service from the checked out folder and run docker-compose.
 
     ```
-    cookiecutter prodline-web
+    cookiecutter https://github.com/prodline/prodline-spa
+    docker-compose up
     ```
 
 ## Credits
