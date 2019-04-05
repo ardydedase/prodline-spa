@@ -12,6 +12,10 @@ Originally written as a demo for the Software Product Line Engineering Advanced 
     cookiecutter https://github.com/prodline/prodline-spa
     docker-compose up
     ```
+3. Access: 
+    - http://localhost:3000
+    - http://localhost:5000
+    
 
 ## Credits
 - https://github.com/nburgess/react-express-example
